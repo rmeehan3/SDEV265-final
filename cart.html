@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
+    <title>Group 3 Pizza</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="group3pizzalogo.png" alt="Logo">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Specials</a></li>
+                <li><a href="cart.html">Cart</a><span id="cartCount"></span></li>               
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div id="around-cart-container">
+    <div class="cart-container">
+    <div class="spacing">
+        <div class="cart-top-container">
+            <h2 id="cart-quantity">0 Items</h2>
+        </div>
+        <p></p>
+        <div class="cart-bottom-container">
+            <pre id="cart-info"></pre>
+            <h3 id="cart-total">Total: $0.00</h3>
+            <button id="clear-cart" onclick="clearCart();">Clear Cart</button>
+            <button id="checkout"><a href="checkout.html">Checkout</a></button>
+        </div>
+            <h1>Pick up: 123 Real Address St</h1>
+    </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        window.onload = displayCart();
+    </script>
+</body>
+</html>

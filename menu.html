@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
+    <title>Group 3 Pizza</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="group3pizzalogo.png" alt="Logo">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Specials</a></li>
+                <li><a href="cart.html">Cart</a><span id="cartCount"></span></li>
+            </ul>
+        </nav>
+    <main>
+    <div class="test">
+    <div class="menu-container">
+        <h1 class="menu-heading">Popular Items</h1>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="cheesepizza.jpg" alt="Cheese Pizza" width="150">
+                    <h3>Cheese Pizza</h3>
+                    <p>Large: $10.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Cheese Pizza', 10.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="pepperonipizza.jpg" alt="Pepperoni Pizza" width="150">
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Large: $10.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Pepperoni Pizza', 10.99);">Add to Cart</button>
+                </div>
+        </div>
+    </div>
+    <div class="menu-container">
+        <h1 class="menu-heading">Specialty Pizzas</h1>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="pineapplepizza.jpg" alt="Pineapple Pizza" width="150">
+                    <h3>Pineapple Pizza</h3>
+                    <p>Large: $12.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Pineapple Pizza', 12.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="bbqchickenandbaconpizza.jpg" alt="Chicken & Bacon Pizza" width="150">
+                    <h3>Chicken & Bacon Pizza</h3>
+                    <p>Large: $12.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Chicken & Bacon Pizza', 12.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="phillycheesesteakpizza.jpg" alt="Philly Cheese Steak Pizza" width="150">
+                    <h3>Philly Cheese Steak Pizza</h3>
+                    <p>Large: $12.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Philly Cheese Steak Pizza', 12.99);">Add to Cart</button>
+                </div>
+        </div>
+    </div>
+    <div class="menu-container">
+        <h1 class="menu-heading">Sides</h1>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="breadsticks.jpg" alt="Breadsticks" width="150">
+                    <h3>Breadsticks</h3>
+                    <p>Large: $5.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Breadsticks', 5.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="breadbites.jpg" alt="Parmesan Bread Bites" width="150">
+                    <h3>Parmesan Bread Bites</h3>
+                    <p>16 ct: $7.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Parmesan Bread Bites', 7.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="spaghetti.jpg" alt="Spaghetti" width="150">
+                    <h3>Spaghetti</h3>
+                    <p>$8.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Spaghetti', 8.99);">Add to Cart</button>
+                </div>
+        </div>
+    </div>
+    <div class="menu-container">
+        <h1 class="menu-heading">Desserts</h1>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="brownies.jpg" alt="Chocolate Fudge Brownies" width="150">
+                    <h3>Brownies</h3>
+                    <p>4ct: $5.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Chocolate Fudge Brownies', 5.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="cookiepizza.jpg" alt="Chocolate Chip Cookie Pizza" width="150">
+                    <h3>Pizza Cookie</h3>
+                    <p>8pc: $8.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Chocolate Chip Cookie Pizza', 8.99);">Add to Cart</button>
+                </div>
+        </div>
+        <div class="menu">
+                <div class="menu-item">
+                    <img src="cinnamonbites.jpg" alt="Cinnamon Bites" width="150">
+                    <h3>Cinnamon Bites</h3>
+                    <p>8ct: $5.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Cinnamon Bites', 5.99);">Add to Cart</button>
+                </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    </main>
+    </body>
