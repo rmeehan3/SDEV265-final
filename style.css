@@ -389,6 +389,11 @@ button:hover {
     ul.nav-list li:nth-last-child(3) {
         border-style: none;
     }
+
+    .cart-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -419,7 +424,7 @@ button:hover {
     }
 
     .home {
-        grid-template-columns:repeat(1, 1fr);
+        grid-template-columns: 1fr;
         margin-left: 0;
     }
 
