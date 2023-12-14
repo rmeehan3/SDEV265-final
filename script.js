@@ -1,3 +1,8 @@
+function refreshPage() {
+    location.reload();
+}
+
+// Cart functions
 var cartItemQuantity = 0;
 
 function cartCounter() {
@@ -55,4 +60,5 @@ function clearCart() {
     cartItems = [];
     updateCart();
     displayCart();
+    refreshPage();
 }
